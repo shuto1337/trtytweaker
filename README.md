@@ -1,5 +1,23 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- ANIMATED HEADER WITH SCRAMBLE EFFECT -->
+<!-- TOP BUTTONS — САЙТ + СКАЧИВАНИЕ -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <a href="https://trtytweaker.xo.je">
+    <img src="https://img.shields.io/badge/🌐_САЙТ_ТВИКЕРА-TRTYTWEAKER.XO.JE-00D68F?style=for-the-badge&labelColor=007A52&logo=googlechrome&logoColor=white&logoWidth=22" alt="Сайт твикера" height="52">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/shuto1337/trtytweaker/releases/latest">
+    <img src="https://img.shields.io/badge/⬇_СКАЧАТЬ_ПОСЛЕДНЮЮ_ВЕРСИЮ-6C5CE7?style=for-the-badge&labelColor=4A3DB8&logo=windows&logoColor=white&logoWidth=22" alt="Скачать" height="52">
+  </a>
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ANIMATED HEADER -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -19,8 +37,6 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="200" rx="20" fill="url(#bannerGrad)"/>
-  
-  <!-- Scramble Text Effect -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
         font-family="JetBrains Mono, monospace" 
         font-size="72" font-weight="900" fill="#ffffff" letter-spacing="4">
@@ -29,8 +45,6 @@
       ⚡ TRTY TWEAKER
     </tspan>
   </text>
-  
-  <!-- Subtitle -->
   <text x="50%" y="80%" text-anchor="middle" dominant-baseline="middle" 
         font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" 
         font-size="18" fill="#ffffff" opacity="0.9" letter-spacing="2">
@@ -40,7 +54,6 @@
 
 <br>
 
-<!-- TYPING ANIMATION (BLUE TEXT) -->
 <svg width="700" height="40" viewBox="0 0 700 40" xmlns="http://www.w3.org/2000/svg">
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
         font-family="JetBrains Mono, monospace" 
@@ -86,6 +99,10 @@
 
 <br><br>
 
+<a href="https://trtytweaker.xo.je">
+  <img src="https://img.shields.io/badge/🌐_САЙТ_ТВИКЕРА-1A1A2E?style=for-the-badge&labelColor=0A0A14&logoColor=00D68F" alt="Сайт" height="42">
+</a>
+&nbsp;
 <a href="https://github.com/shuto1337/trtytweaker/releases">
   <img src="https://img.shields.io/badge/📦_ВСЕ_РЕЛИЗЫ-1A1A2E?style=for-the-badge&labelColor=0A0A14&logoColor=A29BFE" alt="Все релизы" height="42">
 </a>
@@ -99,7 +116,7 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- TYPING ANIMATION (BLUE) -->
+<!-- TYPING ANIMATION -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -119,8 +136,8 @@
   <line x1="0" y1="10" x2="1200" y2="10" stroke="#2a2a40" stroke-width="2"/>
   <circle cx="0" cy="10" r="4" fill="#6c5ce7">
     <animate attributeName="cx" values="0;1200;0" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#6c5стемce7;#00аd68f;#6c5 —ce7" dur=" 5s" repeatCount="indefinite"/>
-  </4circle>
+    <animate attributeName="fill" values="#6c5ce7;#00d68f;#6c5ce7" dur="5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 </div>
 
@@ -128,7 +145,7 @@
 
 ## 📖 О программе
 
-**TRTY Twe тaker** — это утилита для тонкой настройки Windows 10 и Windows 11. Написана на **чистом C** с использованием **WinAPI** — без .NET, без зависимостей, без установщика. Один `.exe` — запустил и пользуешься.
+**TRTY Tweaker** — это утилита для тонкой настройки Windows 10 и Windows 11. Написана на **чистом C** с использованием **WinAPI** — без .NET, без зависимостей, без установщика. Один `.exe` — запустил и пользуешься.
 
 Программа собрана как **один файл**, работает в **портативном режиме**, запускается даже в среде восстановления (WinRE). Позволяет в пару кликов применить десятки полезных твиков: от персонализации интерфейса до отключения телеметрии и оптимизации производительности.
 
@@ -137,7 +154,7 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- PROGRESS BAR (ANIMATED) -->
+<!-- PROGRESS BAR -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -183,15 +200,15 @@
 | Иконки «Мой компьютер» | Вернуть на рабочий стол |
 | «Панель управления» | Вернуть на рабочий стол |
 | Секунды в трее | Показывать в часах |
-| Snap Assist | Отключить подсказки при перетаскивании |
+| Snap Assist | Отключить подсказки |
 | Стрелки с ярлыков | ⚠️ *Перезапускает Проводник* |
 | Уведомления | Отключить всплывашки |
 | «Люди», «Cortana», «Task View» | Убрать с панели задач |
-| Полный путь | Показывать в заголовке проводника |
+| Полный путь | Показывать в заголовке |
 | «Этот компьютер» | Открывать вместо «Быстрого доступа» |
 | Недавние файлы | Убрать из проводника |
 | Предпросмотр | Отключить в проводнике |
-| Поиск-иконка | Компактный вид поиска |
+| Поиск-иконка | Компактный вид |
 | Центрировать панель | Для Win 11 |
 | Виджеты | Убрать из Win 11 |
 | Версия Windows | Показать на рабочем столе |
@@ -204,7 +221,7 @@
 - **Xbox Game Bar** — отключить игровую панель
 - **Superfetch (SysMain)** — отключить службу
 - **Windows Search** — отключить индексирование
-- **Гибернация** — освободить несколько ГБ на диске
+- **Гибернация** — освободить несколько ГБ
 - **AutoEndTasks** — быстрое завершение работы
 - **Фоновые приложения** — отключить
 
@@ -223,12 +240,12 @@
 - **OneDrive из проводника** — ⚠️ *Перезапускает Проводник*
 - Доступ к камере
 
-### 💻 Сивика
+### 💻 Система — 4 твика
 
 - SmartScreen
 - UAC (с подтверждением)
 - Открыть точки восстановления
-- Создать точку восстановления одним кликом
+- Создать точку восстановления
 
 ### 🧹 Очистка — 7 твиков
 
@@ -242,7 +259,7 @@
 
 ### 📝 Реестр — 17 твиков + редактор
 
-- **Открыть regedit** — одной кнопкой
+- **Открыть regedit** одной кнопкой
 - Bing в поиске
 - Виджеты (Win 11)
 - AutoEndTasks
@@ -262,7 +279,7 @@
 
 ### 😈 Троллинг — 5 функций
 
-- **Баннер входа в систему** — legalnoticecaption / legalnoticetext
+- **Баннер входа** — legalnoticecaption / legalnoticetext
 - **Удалить баннер**
 - **Добавить в автозагрузку**
 - **Удалить из автозагрузки**
@@ -300,13 +317,13 @@
   - `▶ Включить Explorer`
 - 🖱️ **Прокрутка колёсиком**
 - ✨ **Анимация переключения** — контент «въезжает» с лёгким сдвигом
-- 🔲 **Скруглённые углы** — через DWM API (Win 11)
-- 🔐 **Требует прав администратора**
+- 🔲 **Скруглённые углы** —л через DWM API (Win 11)
+- 🔐 **куТребу нает ориги прав администратора**
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- TYPING STATUS (BLUE) -->
+<!-- ═════на════════════льный══════════════════════════════════════════ -->
+<!-- TYPING STATUS -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
