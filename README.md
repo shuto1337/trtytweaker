@@ -1,10 +1,10 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- BANNER — анимированный градиент с названием -->
+<!-- ANIMATED HEADER WITH SCRAMBLE EFFECT -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<svg width="100%" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#6c5ce7">
@@ -18,48 +18,38 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="140" rx="20" fill="url(#bannerGrad)"/>
+  <rect width="1200" height="200" rx="20" fill="url(#bannerGrad)"/>
+  
+  <!-- Scramble Text Effect -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
-        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" 
-        font-size="64" font-weight="900" fill="#ffffff" letter-spacing="4">
-    ⚡ TRTY TWEAKER
+        font-family="JetBrains Mono, monospace" 
+        font-size="72" font-weight="900" fill="#ffffff" letter-spacing="4">
+    <tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze"/>
+      ⚡ TRTY TWEAKER
+    </tspan>
   </text>
+  
+  <!-- Subtitle -->
   <text x="50%" y="80%" text-anchor="middle" dominant-baseline="middle" 
         font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" 
-        font-size="16" fill="#ffffff" opacity="0.85" letter-spacing="2">
+        font-size="18" fill="#ffffff" opacity="0.9" letter-spacing="2">
     ТВИКЕР ДЛЯ WINDOWS 10 / 11
   </text>
 </svg>
 
-</div>
-
 <br>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- ЛОГОТИП — пульсирующий с молнией -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a29bfe"/>
-      <stop offset="50%" stop-color="#6c5ce7"/>
-      <stop offset="100%" stop-color="#00d68f"/>
-    </linearGradient>
-  </defs>
-  <circle cx="75" cy="75" r="65" fill="url(#glow)">
-    <animate attributeName="r" values="65;75;65" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <polygon points="80,20 42,78 68,78 62,130 108,65 80,65" fill="url(#boltGrad)">
-    <animate attributeName="opacity" values="1;0.75;1" dur="1.8s" repeatCount="indefinite"/>
-  </polygon>
+<!-- TYPING ANIMATION (BLUE TEXT) -->
+<svg width="700" height="40" viewBox="0 0 700 40" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
+        font-family="JetBrains Mono, monospace" 
+        font-size="18" fill="#4da6ff" letter-spacing="1">
+    <tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze"/>
+      > Initializing system tweaks...
+    </tspan>
+  </text>
 </svg>
 
 </div>
@@ -67,7 +57,7 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- ПЛАШКИ -->
+<!-- BADGES -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -75,14 +65,13 @@
 [![Version](https://img.shields.io/badge/version-1.0%20beta%2011-6C5CE7?style=for-the-badge&labelColor=4A3DB8)](https://github.com/shuto1337/trtytweaker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-00D68F?style=for-the-badge&labelColor=007A52)](https://github.com/shuto1337/trtytweaker/releases)
 [![Language](https://img.shields.io/badge/language-C%20%2F%20WinAPI-A29BFE?style=for-the-badge&labelColor=7A6FD9)](https://github.com/shuto1337/trtytweaker)
-[![License](https://img.shields.io/badge/license-Open%20Source-FFA502?style=for-the-badge&labelColor=C77D00)](https://github.com/shuto1337/trtytweaker)
 
 </div>
 
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- КНОПКИ СКАЧИВАНИЯ -->
+<!-- DOWNLOAD BUTTONS -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -97,10 +86,6 @@
 
 <br><br>
 
-<a href="https://tretiy1337.ru">
-  <img src="https://img.shields.io/badge/🌐_САЙТ-1A1A2E?style=for-the-badge&labelColor=0A0A14&logoColor=00D68F" alt="Сайт" height="42">
-</a>
-&nbsp;
 <a href="https://github.com/shuto1337/trtytweaker/releases">
   <img src="https://img.shields.io/badge/📦_ВСЕ_РЕЛИЗЫ-1A1A2E?style=for-the-badge&labelColor=0A0A14&logoColor=A29BFE" alt="Все релизы" height="42">
 </a>
@@ -114,19 +99,19 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- GIF 1 — терминал -->
+<!-- TYPING ANIMATION (BLUE) -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=6C5CE7&center=true&vCenter=true&width=700&lines=%24+git+clone+https%3A%2F%2Fgithub.com%2Fshuto1337%2Ftrtytweaker.git;%24+cd+trtytweaker;%24+gcc+trty_tweaker.c+-o+trty_tweaker.exe+...;%E2%9C%93+Build+successful!;%E2%9C%93+Ready+to+launch" alt="Terminal animation">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=4DA6FF&center=true&vCenter=true&width=700&lines=Applying+tweaks...;Disabling+telemetry...;Removing+bloatware...;Optimizing+performance...;Done!+System+is+clean." alt="Typing animation">
 
 </div>
 
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- АНИМИРОВАННЫЙ РАЗДЕЛИТЕЛЬ -->
+<!-- ANIMATED DIVIDER -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -134,8 +119,8 @@
   <line x1="0" y1="10" x2="1200" y2="10" stroke="#2a2a40" stroke-width="2"/>
   <circle cx="0" cy="10" r="4" fill="#6c5ce7">
     <animate attributeName="cx" values="0;1200;0" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#6c5ce7;#00d68f;#6c5ce7" dur="5s" repeatCount="indefinite"/>
-  </circle>
+    <animate attributeName="fill" values="#6c5стемce7;#00аd68f;#6c5 —ce7" dur=" 5s" repeatCount="indefinite"/>
+  </4circle>
 </svg>
 </div>
 
@@ -143,7 +128,7 @@
 
 ## 📖 О программе
 
-**TRTY Tweaker** — это утилита для тонкой настройки Windows 10 и Windows 11. Написана на **чистом C** с использованием **WinAPI** — без .NET, без зависимостей, без установщика. Один `.exe` — запустил и пользуешься.
+**TRTY Twe тaker** — это утилита для тонкой настройки Windows 10 и Windows 11. Написана на **чистом C** с использованием **WinAPI** — без .NET, без зависимостей, без установщика. Один `.exe` — запустил и пользуешься.
 
 Программа собрана как **один файл**, работает в **портативном режиме**, запускается даже в среде восстановления (WinRE). Позволяет в пару кликов применить десятки полезных твиков: от персонализации интерфейса до отключения телеметрии и оптимизации производительности.
 
@@ -152,7 +137,7 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- GIF 2 — прогресс-бар -->
+<!-- PROGRESS BAR (ANIMATED) -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -198,15 +183,15 @@
 | Иконки «Мой компьютер» | Вернуть на рабочий стол |
 | «Панель управления» | Вернуть на рабочий стол |
 | Секунды в трее | Показывать в часах |
-| Snap Assist | Отключить подсказки |
+| Snap Assist | Отключить подсказки при перетаскивании |
 | Стрелки с ярлыков | ⚠️ *Перезапускает Проводник* |
 | Уведомления | Отключить всплывашки |
 | «Люди», «Cortana», «Task View» | Убрать с панели задач |
-| Полный путь | Показывать в заголовке |
+| Полный путь | Показывать в заголовке проводника |
 | «Этот компьютер» | Открывать вместо «Быстрого доступа» |
 | Недавние файлы | Убрать из проводника |
 | Предпросмотр | Отключить в проводнике |
-| Поиск-иконка | Компактный вид |
+| Поиск-иконка | Компактный вид поиска |
 | Центрировать панель | Для Win 11 |
 | Виджеты | Убрать из Win 11 |
 | Версия Windows | Показать на рабочем столе |
@@ -219,7 +204,7 @@
 - **Xbox Game Bar** — отключить игровую панель
 - **Superfetch (SysMain)** — отключить службу
 - **Windows Search** — отключить индексирование
-- **Гибернация** — освободить несколько ГБ
+- **Гибернация** — освободить несколько ГБ на диске
 - **AutoEndTasks** — быстрое завершение работы
 - **Фоновые приложения** — отключить
 
@@ -238,12 +223,12 @@
 - **OneDrive из проводника** — ⚠️ *Перезапускает Проводник*
 - Доступ к камере
 
-### 💻 Система — 4 твика
+### 💻 Сивика
 
 - SmartScreen
 - UAC (с подтверждением)
 - Открыть точки восстановления
-- Создать точку восстановления
+- Создать точку восстановления одним кликом
 
 ### 🧹 Очистка — 7 твиков
 
@@ -257,7 +242,7 @@
 
 ### 📝 Реестр — 17 твиков + редактор
 
-- **Открыть regedit** одной кнопкой
+- **Открыть regedit** — одной кнопкой
 - Bing в поиске
 - Виджеты (Win 11)
 - AutoEndTasks
@@ -277,7 +262,7 @@
 
 ### 😈 Троллинг — 5 функций
 
-- **Баннер входа** — legalnoticecaption / legalnoticetext
+- **Баннер входа в систему** — legalnoticecaption / legalnoticetext
 - **Удалить баннер**
 - **Добавить в автозагрузку**
 - **Удалить из автозагрузки**
@@ -286,7 +271,7 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- АНИМИРОВАННЫЙ РАЗДЕЛИТЕЛЬ 2 -->
+<!-- ANIMATED DIVIDER 2 -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -314,19 +299,19 @@
   - `↻ Перезапустить Explorer`
   - `▶ Включить Explorer`
 - 🖱️ **Прокрутка колёсиком**
-- ✨ **Анимация переключения** — контент «въезжает» со сдвигом
+- ✨ **Анимация переключения** — контент «въезжает» с лёгким сдвигом
 - 🔲 **Скруглённые углы** — через DWM API (Win 11)
 - 🔐 **Требует прав администратора**
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- GIF 3 — печатающийся статус -->
+<!-- TYPING STATUS (BLUE) -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=600&color=00D68F&center=true&vCenter=true&width=600&lines=%E2%9C%93+Telemetry+disabled;%E2%9C%93+Cortana+disabled;%E2%9C%93+Bing+Search+disabled;%E2%9C%93+Xbox+Game+Bar+disabled;%E2%9C%93+All+tweaks+applied+successfully!" alt="Status animation">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=800&color=4DA6FF&center=true&vCenter=true&width=700&lines=%24+git+clone+https%3A%2F%2Fgithub.com%2Fshuto1337%2Ftrtytweaker.git;%24+cd+trtytweaker;%24+gcc+trty_tweaker.c+-o+trty_tweaker.exe+...;%E2%9C%93+Build+successful!;%E2%9C%93+Ready+to+launch" alt="Typing status">
 
 </div>
 
